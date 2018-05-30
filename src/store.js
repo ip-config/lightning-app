@@ -5,6 +5,7 @@ import ComputedChannel from './computed/channel';
 import ComputedInvoice from './computed/invoice';
 import ComputedPayment from './computed/payment';
 import ComputedNotification from './computed/notification';
+import ComputedSeed from './computed/seed';
 import { DEFAULT_ROUTE, DEFAULT_UNIT, DEFAULT_FIAT } from './config';
 import * as log from './action/log';
 
@@ -73,6 +74,7 @@ export class Store {
     ComputedInvoice(this);
     ComputedPayment(this);
     ComputedNotification(this);
+    ComputedSeed(this);
   }
 
   init(AsyncStorage) {
