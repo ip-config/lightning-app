@@ -22,6 +22,7 @@ export const color = {
   glasDarker: 'rgba(255,255,255,0.04)',
   notifyDark: 'rgba(37,47,74,0.5)',
   notifyLight: 'rgba(255,255,255,0.5)',
+  purpleSpinner: '#651399',
 };
 
 export const font = {
